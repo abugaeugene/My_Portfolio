@@ -5,8 +5,11 @@ a,
 a:active,
 a:hover {
   text-decoration: none;
-  color: white;
+  color: rgb(6, 0, 0);
   outline: 0;
+}
+.nav-item:hover {
+  color: #fcd9b8;
 }
 
 .header {
@@ -27,9 +30,8 @@ a:hover {
 }
 
 .header-name {
-  color: #edf2f4;
-  font-size: 1rem;
-  border: 3px solid #edf2f4;
+  color: #000405;
+  font-size: 1.5rem;
   padding: 0.7rem;
   animation: show 0.5s;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -43,7 +45,7 @@ a:hover {
   align-items: center;
   padding: 1.65rem;
   text-align: right;
-  color: lightgrey;
+  color: rgb(2, 0, 0);
   z-index: 2;
   transition: all 0.2s linear;
 }
@@ -53,6 +55,7 @@ a:hover {
   display: inline-block;
   font-size: 1.3rem;
   margin-right: 2rem;
+  color: #000405;
 }
 
 .nav-item::after {
@@ -80,6 +83,84 @@ a:hover {
   min-height: 56rem;
   background: linear-gradient(45deg, #292c35, #17181d);
 }
+.rocket-icon {
+  position: absolute;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  background-size: contain;
+  opacity: 0.5; /* Optional: makes the icons less prominent */
+}
+
+.rocket-icon:nth-child(1) {
+  top: 10%;
+  left: 20%;
+}
+.rocket-icon:nth-child(2) {
+  top: 50%;
+  left: 70%;
+}
+.rocket-icon:nth-child(3) {
+  top: 30%;
+  left: 30%;
+}
+.rocket-icon:nth-child(4) {
+  top: 60%;
+  left: 10%;
+}
+.rocket-icon:nth-child(5) {
+  top: 55%;
+  left: 46%;
+}
+.rocket-icon:nth-child(6) {
+  top: 77%;
+  left: 50%;
+}
+.rocket-icon:nth-child(7) {
+  top: 90%;
+  left: 20%;
+}
+.rocket-icon:nth-child(8) {
+  top: 30%;
+  left: 87%;
+}
+.rocket-icon:nth-child(9) {
+  top: 108%;
+  left: 67%;
+}
+.rocket-icon:nth-child(10) {
+  top: 30%;
+  left: 70%;
+}
+.rocket-icon:nth-child(11) {
+  top: 80%;
+  left: 80%;
+}
+.rocket-icon:nth-child(12) {
+  top: 30%;
+  left: 10%;
+}
+.rocket-icon:nth-child(13) {
+  top: 10%;
+  left: 90%;
+}
+.rocket-icon:nth-child(14) {
+  top: 10%;
+  left: 60%;
+}
+.rocket-icon:nth-child(15) {
+  top: 65%;
+  left: 30%;
+}
+.rocket-icon:nth-child(16) {
+  top: 175%;
+  left: 57%;
+}
+.rocket-icon:nth-child(17) {
+  top: 250%;
+  left: 55%;
+}
+
+/* Add more .rocket-icon classes with different positions as needed */
 
 .body .body-container {
   position: relative;
@@ -517,4 +598,115 @@ a:hover {
     border: 2px solid #17181d;
     border-radius: 10px;
   }
+}
+
+.skills {
+  background: linear-gradient(45deg, #292c35, #17181d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+.title {
+  color: #e09145;
+  font-size: 4rem;
+  margin-top: 5%;
+  margin: 3rem 0;
+  letter-spacing: 0.3rem;
+}
+.skill-cards {
+  padding: 1.2rem 1rem 1rem 1rem;
+  margin: 1.2rem;
+  width: 10rem;
+  border-radius: 10rem;
+  color: #e09145;
+  background-color: #fcd9b8;
+}
+.skill-icon {
+  font-size: 40px;
+}
+.skills-holder {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+.skill {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 2px 3px 4px #fcd9b8;
+  text-transform: uppercase;
+}
+.skill-cards:hover {
+  box-shadow: 0px 2px 10px #e09145;
+}
+@media (max-width: 650px) {
+  .title {
+    color: #e09145;
+    font-size: 3rem;
+    margin-top: 8%;
+    margin: 3rem 0;
+    letter-spacing: 0.3rem;
+  }
+  .skill-cards {
+    padding: 1.2rem 1rem 1rem 1rem;
+    margin: 1.2rem;
+    width: 10rem;
+    border-radius: 10rem;
+    color: #e09145;
+    background-color: #fcd9b8;
+  }
+  .skill-icon {
+    font-size: 40px;
+  }
+  .skills-holder {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+  }
+  .skill {
+    padding: 0;
+    font-size: 0rem;
+  }
+}
+.footer {
+  background: linear-gradient(45deg, #292c35, #17181d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 30vh;
+  color: #e09145;
+}
+.footer .footer-contact-info {
+  padding: 20px;
+}
+.footer .footer-contact-info .footer-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.footer .footer-contact-info .footer-contact-access {
+  font-size: 1.4rem;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.footer .social-title {
+  margin-top: 0;
+}
+.footer .social-icons a {
+  color: #fcd9b8;
+  font-size: 1.4rem;
+  margin: 0.7rem;
+  transition: 0.5s;
+  display: inline-block;
 }

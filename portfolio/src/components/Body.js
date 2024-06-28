@@ -1,10 +1,65 @@
 import{FaGithub, FaLinkedin} from 'react-icons/fa';
 import Avatar from '../assets/image.png';
+import Project from '../assets/start-up.png';
 
 const Body = () => {
     return (
         <div id="body" className='body'>
             <div className="body-container">
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+                <div className="rocket-icon">
+                    <img src={Project} alt="Project" />
+                </div>
+
+
+                
                 <div className="body-profile">
                     <img className="body-img" src={Avatar} alt="Avatar" />
 
